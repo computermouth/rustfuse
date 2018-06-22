@@ -1,9 +1,8 @@
 [package]
 name = "rust-to-c"
 version = "0.1.0"
-authors = ["Alex Crichton <alex@alexcrichton.com>"]
+authors = ["Ben Young <by@computermouth.com>"]
 build = "build.rs"
-links = "confuse"
 
 [dependencies]
 libc = "0.1"
