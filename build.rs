@@ -6,6 +6,6 @@ fn main() {
         .file("src/cfuncs.c")
         .compile("libcfuncs.a");
 
-    pkg_config::Config::new().statik(true).probe("sdl2").unwrap();
+    pkg_config::Config::new().statik(false).probe("sdl2").unwrap();
     
 }
